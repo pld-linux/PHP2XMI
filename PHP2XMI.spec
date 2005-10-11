@@ -1,5 +1,6 @@
 %include	/usr/lib/rpm/macros.php
 Summary:	Produces XMI 1.3 schemes (UML) from PHP files
+Summary(pl):	Tworzenie schematów XMI 1.3 (UML) z plików PHP
 Name:		PHP2XMI
 Version:	0.1.1
 Release:	1
@@ -15,6 +16,9 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
 PHP2XMI produces XMI 1.3 schemes (UML) from PHP files.
+
+%description -l pl
+Tworzenie schematów XMI 1.3 (UML) z plików PHP.
 
 %prep
 %setup -q
