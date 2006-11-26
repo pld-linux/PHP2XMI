@@ -10,7 +10,7 @@ Source0:	http://tech.motion-twin.com/zip/%{name}-%{version}.tar.gz
 # Source0-md5:	42821db581216c3a91dec91e1987ea24
 URL:		http://tech.motion-twin.com/php_php2xmi.html
 BuildRequires:	rpm-php-pearprov >= 4.4.2-11
-Requires:	php
+Requires:	webserver(php)
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
